@@ -1,0 +1,55 @@
+GitHub. HW_2
+1. На локальном репозитории сделать ветки для:
+ git branch Postman Jmeter CheckLists Bag_Reports SQL Charles Mobile_testing
+
+2. Запушить все ветки на внешний репозиторий
+ git push origin Postman SQL Jmeter CheckLists Charles Bag_Reports Mobile_testing
+
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+ git checkout Bag_Reports
+ touch new_bag_rep.json
+ vim new_bag_rep.json
+ {"ID": "tutu",
+ "Title": "goods",
+ "Priority": Low
+ "Severity": Major
+ "Precondition": 1. Зайти на сайт 2. Зарегистрироваться
+ "Steps" 1. Найти товар 2. Добавить в корзину 3. Оплатить товар"
+ "Expected result": "оплата прошла и товар получен",
+ "Actual result":"оплата прошла и товар получен"}
+
+4. Запушить структуру багрепорта на внешний репозиторий
+ git add .
+ git commit -m "new_bag_rep.json"
+ git push -u origin Bag_Reports
+
+5. Вмержить ветку Bag Reports в Main
+ git checkout main
+ git merge Bag_Reports
+
+6. Запушить main на внешний репозиторий.
+ git push
+
+7. В ветке CheckLists набросать структуру чек листа
+ git checkout CheckLists
+ touch chek_lst.txt
+ vim chek_lst.txt
+ Чек лист формы регистрации:
+ {ID:1
+  Title: Ввести в поле email валидные данные: privet@mail.ru
+  Input paramete:privet@mail.ru
+  Expected result: валидация прошла
+  Status: pass}
+
+8. Запушить структуру на внешний репозиторий
+ git add .
+ git commit -m "chek_lst.txt"
+ git push -u origin CheckLists
+
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+
+
+10. Синхронизировать Внешнюю и Локальную ветки Main
+ git checkout main
+ git pull
+
