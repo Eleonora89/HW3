@@ -1,6 +1,13 @@
-GitHub. HW_2
 1. На локальном репозитории сделать ветки для:
- git branch Postman Jmeter CheckLists Bag_Reports SQL Charles Mobile_testing
+ git branch Postman 
+ git branch Jmeter 
+ git branch CheckLists 
+ git branch Bag_Reports 
+ git branch SQL 
+ git branch Charles 
+ git branch Mobile_testing
+
+Я не нашла как создать одной командой несколько веток. 
 
 2. Запушить все ветки на внешний репозиторий
  git push origin Postman SQL Jmeter CheckLists Charles Bag_Reports Mobile_testing
@@ -34,7 +41,6 @@ GitHub. HW_2
  git checkout CheckLists
  touch chek_lst.txt
  vim chek_lst.txt
- Чек лист формы регистрации:
  {ID:1
   Title: Ввести в поле email валидные данные: privet@mail.ru
   Input paramete:privet@mail.ru
@@ -52,4 +58,3 @@ GitHub. HW_2
 10. Синхронизировать Внешнюю и Локальную ветки Main
  git checkout main
  git pull
-
