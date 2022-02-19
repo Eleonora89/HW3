@@ -51,7 +51,8 @@
  git push -u origin CheckLists
 
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
-
+Заходим в ветку CheckLists, проверяем чтобы branch стояла CheckLists нажимаем pull request.
+Проверяем что во что мержим. Пишем комментарий. Нажимаем create pull request. Нажимаем merge pull request. Нажимаем confirm merge
 
 10. Синхронизировать Внешнюю и Локальную ветки Main
  git checkout main
