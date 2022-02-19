@@ -7,8 +7,6 @@
  git branch Charles 
  git branch Mobile_testing
 
-Я не нашла как создать одной командой несколько веток. 
-
 2. Запушить все ветки на внешний репозиторий
  git push origin Postman SQL Jmeter CheckLists Charles Bag_Reports Mobile_testing
 
